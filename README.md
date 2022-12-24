@@ -1,24 +1,7 @@
-# README
+# LONGEST-WORD-GAME
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Users must select the longest English word out of a random set of letters in a GRID.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Main App Features
+A user's word is checked with different tests and received a score depending on the length of the word.
+This word is also checked to be an English word by parsing a JSON file.
