@@ -19,6 +19,11 @@ This word is also checked to be an English word by parsing a JSON file.
 ### Setup
 
 ```
-
+ git clone git@github.com:guavalines/rails-longest-word-game.git
+ cd rails-longest-word-game
+ rails db:create db:migrate db:seed:replant
+ bundle install
+ yarn install
+ rails server
 ```
 Open you browser and visit localhost:3000
