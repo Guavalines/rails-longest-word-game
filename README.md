@@ -1,4 +1,4 @@
-# LONGEST-WORD-GAME
+# LONGEST WORD GAME
 
 ### Users must select the longest English word out of a random set of letters in a GRID.
 
