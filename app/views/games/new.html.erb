@@ -1,10 +1,9 @@
-<h1>Match That Word!</h1>
-
+<h1>NEW GAME🥽</h1>
 <%= @letters %>
-
-<form action="/score" method="post">
-  <input type="text" name="user_input">
-  <input type="submit" value="Play!">
+<h2>What's the longest word you can find?</h2>
+<form action="score" method="post">
   <input type="hidden" name="letters" value="<%= @letters.join %>">
-<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="guess" placeholder="🤔?">
+  <input type="submit">
 </form>
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
