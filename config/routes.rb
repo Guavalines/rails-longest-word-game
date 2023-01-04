@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get 'new', to: 'games#new'
-  post 'score', to: 'games#score'
+  root 'articles#index'
+  get '/new', to: 'games#new'
+  post '/score', to: 'games#score'
+  get '/result', to: 'games#result'
+  get '/show', to: 'games#show'
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # Defines the root path route ("/")
 end
