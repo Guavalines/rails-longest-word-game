@@ -1,4 +1,6 @@
-<h1>CONGRATS!!! HERE ARE YOUR RESULTS</h1>
-<%= @final_score %>
+<div class="container mt-5 text-center">
+  <h1>CONGRATS!!!</h1>
+  <h4>Your final score is <%= @final_score %></h4>
 
-<h3><%= link_to "RESTART!", new_path  %></h3>
+  <h3><%= link_to "RESTART!", new_path, class: "text-success" %></h3>
+</div>

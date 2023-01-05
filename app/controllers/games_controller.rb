@@ -23,13 +23,13 @@ class GamesController < ApplicationController
     session[:past_wins] ||= []
     if guess.chars.all? { |letter| guess.count(letter) <= letters.count(letter.upcase) } && user['found'] == true
       session[:past_wins] << guess.length
-      "Congratulations! #{guess} is a valid English word!"
+      "Congratulations! #{guess.capitalize} is a valid English word!"
     elsif user['found'] == false
       session[:past_wins] << 0
       'not an english word'
     else
       session[:past_wins] << 0
-      "Sorry, but #{@guess} can't be build out of the grid"
+      "Sorry, but #{@guess} can't be built out of the grid"
     end
   end
 
