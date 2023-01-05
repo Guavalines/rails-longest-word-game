@@ -5,6 +5,16 @@
 ### Main App Features
 A user's word is checked with different tests and received a score depending on the length of the word.
 This word is also checked to be an English word by parsing a JSON file.
+Wrote a simplified version of the game COUNTDOWN.
+Users are given a random set of letters, from which they must enter the longest english word they can find using only letters in the grid.
+Your score depends on the time taken to answer, plus the length of the word you submit, and eventually an error message if you failed.  The longer the word and the quicker the time, the better the score! 
+
+
+Get familiar with parsing JSON format
+Separated program's responsibilities into several sub-methods
+Determine what is a JSON, and how it is similar to the structure of a Ruby hash.
+Access a web-API, and parse JSON data returned by this API
+
 
 
 ## Initialize these before starting the app:
