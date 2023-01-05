@@ -14,6 +14,11 @@ Separated program's responsibilities into several sub-methods
 Determine what is a JSON, and how it is similar to the structure of a Ruby hash.
 Access a web-API, and parse JSON data returned by this API
 
+![Longest-Word-Game](https://user-images.githubusercontent.com/100665876/210687814-06658c9c-c935-4fc3-9525-3626fbc50d86.jpeg)
+
+![Result](https://user-images.githubusercontent.com/100665876/210687890-8dc14a32-4244-4f9c-97a3-411a576cbee1.jpeg)
+
+![Congrats](https://user-images.githubusercontent.com/100665876/210687931-ab5a4df7-4692-436e-a7b3-c3bb81140712.jpeg)
 
 
 ## Initialize these before starting the app:
