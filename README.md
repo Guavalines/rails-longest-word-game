@@ -21,7 +21,8 @@ Access a web-API, and parse JSON data returned by this API
 ![Congrats](https://user-images.githubusercontent.com/100665876/210687931-ab5a4df7-4692-436e-a7b3-c3bb81140712.jpeg)
 
 routes.rb
-'''
+
+```
 Rails.application.routes.draw do
   root 'games#new'
   get '/new', to: 'games#new'
@@ -29,9 +30,11 @@ Rails.application.routes.draw do
   get '/result', to: 'games#result'
   get '/show', to: 'games#show'
 end
-'''
+```
+
 games_controller.rb
-'''
+
+```
 require 'open-uri'
 require 'json'
 
@@ -75,7 +78,7 @@ class GamesController < ApplicationController
     @final_score = session[:past_wins].sum
   end
 end
-'''
+```
 
 
 ## Initialize these before starting the app:
