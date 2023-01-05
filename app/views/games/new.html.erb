@@ -1,9 +1,10 @@
-<div class="container mt-5">
-    <h1><strong>NEW GAME</strong></h1>
+<div class="container mt-5 text-center">
+    <h1 class="bg-success d-inline-flex p-2"><strong>LONGEST-WORD-GAME</strong></h1>
   <br>
+  <h5>What's the longest English word you can find?</h5>
+  <p class="text-success">Use only letters from the grid below &#10549;</p>
   <%= @letters %>
   <br>
-  <h2>What's the longest word you can find?</h2>
   <br>
   <form action="score" method="post">
     <input type="hidden" name="letters" value="<%= @letters.join %>">
