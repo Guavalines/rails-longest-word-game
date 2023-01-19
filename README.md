@@ -1,17 +1,10 @@
 # LONGEST WORD GAME
 
-### Users must select the longest English word out of a random set of letters in a GRID.
+### Longest Word Game is a simplified version of the game COUNTDOWN, where users are given a random set of letters, from which they must enter the longest english word they can find using only letters from a grid. The final score depends on the time taken to answer, plus the length of the word submitted. The user's word is checked to be an English word by parsing a JSON file.
 
 ### Main App Features
 
-
-Wrote a simplified version of the game COUNTDOWN, where users are given a random set of letters, from which they must enter the longest english word they can find using only letters from a grid. The final score depends on the time taken to answer, plus the length of the word submitted. The user's word is checked to be an English word by parsing a JSON file.
-
-
-Get familiar with parsing JSON format
-Separated program's responsibilities into several sub-methods
-Determine what is a JSON, and how it is similar to the structure of a Ruby hash.
-Access a web-API, and parse JSON data returned by this API
+- Access a web-API, and parse JSON data returned by this API
 
 ![Longest-Word-Game](https://user-images.githubusercontent.com/100665876/210687814-06658c9c-c935-4fc3-9525-3626fbc50d86.jpeg)
 
