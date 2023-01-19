@@ -4,7 +4,7 @@
 
 ### Main App Features
 
-- Access a web-API, and parse JSON data returned by this API
+- Access a web-API and parse JSON data returned by this API.
 
 
 ![Longest-Word-Game](https://user-images.githubusercontent.com/100665876/210687814-06658c9c-c935-4fc3-9525-3626fbc50d86.jpeg)
