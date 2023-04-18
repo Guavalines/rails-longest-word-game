@@ -8,7 +8,7 @@
 - Access a web-API and parse JSON data returned by this API.
 
 
-# Views
+## Views
 ![Longest-Word-Game](https://user-images.githubusercontent.com/100665876/210687814-06658c9c-c935-4fc3-9525-3626fbc50d86.jpeg)
 
 ![Result](https://user-images.githubusercontent.com/100665876/210687890-8dc14a32-4244-4f9c-97a3-411a576cbee1.jpeg)
