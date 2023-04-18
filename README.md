@@ -1,8 +1,9 @@
 # LONGEST WORD GAME
 
+## Description
 ### This is a game where users are given a random set of letters, from which they must enter the longest english word they can find using only letters from a grid. This word is checked to be an English word by parsing a JSON file. The final score depends on the time taken to answer, plus the length of the word submitted.
 
-### Main App Features
+## Features
 
 - Access a web-API and parse JSON data returned by this API.
 
